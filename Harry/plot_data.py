@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+
 # Dictionary of the different data categories in the dataset
 data_divisions = {
     'state_id': ['CA', 'TX', 'WI'],
