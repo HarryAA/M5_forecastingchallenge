@@ -12,6 +12,8 @@ import neptune
 import os
 import datetime
 
+# test changes
+
 project = neptune.init(api_token=os.environ.get('NEPTUNE_API_TOKEN'), project_qualified_name='ABG-Consultancy/sandbox')
 
 PARAMS = {'neurons': 40,
