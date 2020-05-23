@@ -12,7 +12,7 @@ import neptune
 import os
 import datetime
 
-project = neptune.init(api_token=os.environ.get('NEPTUNE_API_TOKEN'), project_qualified_name='harryandrews1/M5_Challenge')
+project = neptune.init(api_token=os.environ.get('NEPTUNE_API_TOKEN'), project_qualified_name='ABG-Consultancy/sandbox')
 
 PARAMS = {'neurons': 40,
           'lr': 0.0001,
@@ -89,16 +89,11 @@ class ModelHandler():
 
     def setupLSTM(self, x_train, loss):
         optimiser = keras.optimizers.Adam(learning_rate=PARAMS['lr'], clipnorm=1, clipvalue=0.5)
-        self.model = keras.models.Sequential([
-            keras.layers.LSTM(PARAMS['neurons'], input_shape=(x_train.shape[1], x_train.shape[2]),
-                              activation=keras.activations.relu, return_sequences=True),
-            keras.layers.LSTM(PARAMS['neurons'], activation=keras.activations.relu, return_sequences=False),
-            #keras.layers.Dense(PARAMS['neurons'], activation=keras.activations.relu),
-            keras.layers.Dense(PARAMS['neurons'], activation=keras.activations.relu),
-            keras.layers.Dense(PARAMS['neurons'], activation=keras.activations.relu),
-            keras.layers.Dropout(PARAMS['dropout']),
-            keras.layers.Dense(1, activation=keras.activations.sigmoid)
-        ])
+        embedding_layer = keras.layers.Embedding(input_dim=5, output_dim=3, input_length=100)
+        concat_layer = keras.layers.Concatenate(embedding_layer, x_train)
+        self.model = keras.models.Sequential()
+        self.model.add(embedding_layer)
+        self.model.add(concat_layer)
         self.description['type'] = 'LSTM + DNN'
         self.description['loss'] = loss
         self.description['config'] = self.model.get_config()
