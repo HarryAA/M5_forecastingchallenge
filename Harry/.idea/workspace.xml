@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3497262a-85f3-475e-8afb-050320059d54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/embeddings_notebook-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embeddings_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Harry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Harry.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSTM_Jupyter.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LSTM_Jupyter.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embeddings_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/embeddings_notebook.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Work" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -107,12 +103,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3118" y="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590231829510">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="3118" y="405" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200/1920.0.1920.1200@1920.0.1920.1200" timestamp="1590231829510" />
+    <state x="740" y="320" key="FileChooserDialogImpl" timestamp="1591613512845">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="355" key="FileChooserDialogImpl/-1920.0.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1590947296955" />
+    <state x="740" y="320" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591613512845" />
     <state width="1899" height="334" key="GridCell.Tab.0.bottom" timestamp="1590266408070">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
@@ -129,9 +131,10 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state width="1899" height="334" key="GridCell.Tab.0.right/0.0.1920.1200/1920.0.1920.1200@1920.0.1920.1200" timestamp="1590266408069" />
-    <state x="1981" y="89" key="SettingsEditor" timestamp="1590248401400">
-      <screen x="1920" y="0" width="1920" height="1200" />
+    <state x="61" y="89" key="SettingsEditor" timestamp="1590783318603">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state x="61" y="89" key="SettingsEditor/-1920.0.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1590783318603" />
     <state x="1981" y="89" key="SettingsEditor/0.0.1920.1200/1920.0.1920.1200@1920.0.1920.1200" timestamp="1590248401400" />
   </component>
   <component name="XDebuggerManager">
